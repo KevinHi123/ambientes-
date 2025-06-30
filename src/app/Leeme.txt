@@ -1,0 +1,59 @@
+===============================
+       PROYECTO FORMULARIO
+===============================
+
+Descripción:
+-------------
+Este proyecto es un formulario de contacto desarrollado con Angular. 
+Incluye validación básica para los campos: nombre, email, teléfono y mensaje.
+
+Requisitos:
+-----------
+- Node.js (versión recomendada: 14.x o superior)
+- Angular CLI (versión recomendada: 14.x o superior)
+- Git (para clonar el repositorio)
+
+Instrucciones para instalar y ejecutar:
+---------------------------------------
+
+1. Clonar el repositorio:
+
+   git clone <URL_DEL_REPOSITORIO_AQUI>
+
+2. Entrar a la carpeta del proyecto:
+
+   cd nombre-del-proyecto
+
+3. Instalar dependencias:
+
+   npm install
+
+4. Ejecutar el proyecto en modo desarrollo:
+
+   ng serve
+
+5. Abrir el navegador en:
+
+   http://localhost:4200
+
+6. Modificar o agregar código según sea necesario.
+
+---
+
+Repositorio en GitHub:
+
+https://github.com/KevinHi123/Formulario
+
+Notas:
+------
+- Asegúrate de tener instalado Node.js y Angular CLI.
+- Para instalar Angular CLI si no lo tienes:
+
+    npm install -g @angular/cli
+
+- Para construir una versión de producción:
+
+    ng build --prod
+
+
+¡Fin!

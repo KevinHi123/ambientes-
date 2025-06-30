@@ -1,0 +1,42 @@
+<div class="contenedor-formulario d-flex justify-content-center align-items-center" style="min-height: 100vh; padding: 20px;">
+    <div class="card shadow-lg p-4" style="width: 100%; max-width: 500px; background-color: rgba(0, 0, 0, 0.6); color: #fff; border-radius: 15px; backdrop-filter: blur(5px);">
+      <h2 class="mb-4 text-center text-light" style="font-weight: bold;">Formulario de Contacto</h2>
+      <form>
+        <!-- Nombre -->
+        <div class="mb-3">
+          <label for="nombre" class="form-label text-light">Nombre Completo</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe tu nombre"
+                 pattern="[A-Za-zÁÉÍÓÚáéíóúñÑ ]{3,}" required
+                 title="Solo letras, mínimo 3 caracteres"
+                 onkeypress="return /[A-Za-zÁÉÍÓÚáéíóúñÑ ]/.test(String.fromCharCode(event.charCode))">
+        </div>
+  
+        <!-- Email -->
+        <div class="mb-3">
+          <label for="email" class="form-label text-light">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+        </div>
+  
+        <!-- Teléfono -->
+        <div class="mb-3">
+          <label for="telefono" class="form-label text-light">Celular</label>
+          <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="0999999999"
+                 pattern="[0-9]{7,10}" required
+                 title="Solo números entre 7 y 10 dígitos"
+                 onkeypress="return /[0-9]/.test(String.fromCharCode(event.charCode))">
+        </div>
+  
+        <!-- Mensaje -->
+        <div class="mb-3">
+          <label for="mensaje" class="form-label text-light">Mensaje</label>
+          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+        </div>
+  
+        <!-- Botón -->
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  

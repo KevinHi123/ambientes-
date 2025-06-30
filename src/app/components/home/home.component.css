@@ -1,0 +1,40 @@
+.contenedor-formulario {
+    min-height: 100vh;
+    padding: 20px;
+  
+    /* Centrado del contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    backdrop-filter: blur(5px);
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+  }
+  
+  .btn-primary {
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0a58ca;
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
